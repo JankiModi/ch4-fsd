@@ -1,0 +1,34 @@
+<!--Write html css script to design a signup form having field like username,pwd, choice of sports like cricket,hockey,
+badminton and tennis. Include gender field, submit and reset button. 
+While hovering username and password, its background should turn yellow color and pink color respectively
+Both submit and reset button text should turn blue while hovering
+Use appropriate selector
+qb7 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="qb7.css">
+</head>
+<body bgcolor="aliceblue">
+    
+    <form>
+        <fieldset>
+            <legend align="center"> <b><h1> SIGNUP FORM </h1> </b></legend>
+            <label>Username : <input type="text" name="user"></label> <br><br>
+            <label>Password : <input type="password" name="pwd"></label> <br><br>
+        Choice of Sports : <label class="sport"> <input type="checkbox" name="sports"> Cricket </label>
+          <label class="sport"> <input type="checkbox" name="sports"> Hockey</label>  
+          <label class="sport"> <input type="checkbox" name="sports"> Badminton </label>
+          <label class="sport"> <input type="checkbox" name="sports"> Tennis </label> <br><br>
+        Gender : <label class="gen"><input type="radio" name="gender"> M </label>
+            <label class="gen"> <input type="radio" name="gender"> F</label> <br><br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+        </fieldset>
+        
+</body>
+</html>

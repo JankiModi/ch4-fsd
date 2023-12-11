@@ -1,0 +1,19 @@
+/* Heading should be normal font style and size should be 120%.
+define a class arial for paragraph with arial face and bold text & 3 cm spacing for paragraph initialisation.
+apply a bg image and it should be repeated vertically */
+#heading {
+    font-style: normal;
+    font-size: 120%;
+}
+.p3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    word-spacing: 3cm;
+}
+div
+{
+    background-image: url(flower.jpg);
+    background-repeat: repeat-x;
+    height: 1000px;
+    width: 1000px;
+}

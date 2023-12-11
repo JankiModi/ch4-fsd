@@ -1,0 +1,41 @@
+/*  CSS FONT PROPERTY 
+1) font-family : times new roman,arial,serif
+2) font-style: italic or normal
+3) font-weight : bold / bolder / lighter
+               : 600 (100-500 normal)
+4) font-size : xx-small, x-small, small, large, x-large, xx-large  -OR-  pixel
+5) font-variant : small-caps -OR- normal */
+
+
+/*  CSS TEXT PROPERTY 
+1) letter-spacing : 2px
+2) word-spacing : 5px
+3) text-indent : px / cm
+4) text-decoration : none / underline / overline / line-through
+5) text-transform : capitalize / uppercase / lowercase */
+ 
+
+/*  CSS BORDER PROPERTY 
+1) border-color : red
+2) border-top-color : yellow
+border-bottom-color / border-left-color / border-right-color 
+3) border-style : solid / dotted / dashed / double
+4) border-width: 2px 
+
+--border : 2px solid red*/
+
+#p1{
+    font-family:'Times New Roman', Arial, serif;
+    font-weight: bold;
+    font-size: xx-large;
+    font-style: italic;
+    font-variant: small-caps;
+}
+#p2{
+    letter-spacing : 2px;
+    word-spacing : 5px;
+    text-indent: px;
+    text-decoration : line-through;
+    text-transform :capitalize
+}
+

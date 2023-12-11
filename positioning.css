@@ -1,0 +1,20 @@
+/*
+static 
+relative
+fixed 
+absolute 
+p{
+    position: static;
+}
+p{
+    position: relative;
+    top: 500px;
+    left: 20px;
+}
+etc */
+div {
+    position: static;
+    border: 300px solid yellow;
+    top: 200px; 
+    border: 200px;
+}

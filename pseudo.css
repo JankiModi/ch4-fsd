@@ -1,0 +1,45 @@
+/* 
+selector::pseudo element 
+{
+    property: value
+} 
+*/
+
+/* 1) first-letter */
+h1::first-letter
+{
+    font-size: 45px;
+    color: red;
+    font-style: italic;
+}
+
+/* 2) first-line  */
+p::first-line
+{
+    font-size: 30px;
+}
+
+/* 3) before */
+h1::before
+{
+    content:"HelloWorld";
+    color:red
+}
+/* HelloWorld (before tag) will get the first-letter effect if we use before for the same tag as first-letter */
+
+/* 4) after */
+h2::after
+{
+    content:"ByeWorld";
+    color:red
+}
+
+/* 5) selection  */
+h3::selection
+{
+    background-color: yellow;
+    color: green;
+}
+
+/* 6) marker
+   <ol> , <ul> , <li> */

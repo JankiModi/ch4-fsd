@@ -1,0 +1,48 @@
+<!-- 
+    # id selector
+    . class selector
+    * universal selector 
+    attribute selector - element [attribute=value]
+if same property is given to both universal selector and class selector then,
+it will prioritise the class property shown in para1-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 {
+            color:red; 
+            background-color: yellow; 
+            font-size: 75%
+        }
+        * { color: red}
+        #para1 { color: green}
+        #para2 { color: blue}
+        .para3 { font-size: 25px;}
+        div {
+            color: blue;
+            background-color: bisque;
+            height: 20px;
+        }
+        input[type="text"]
+        {
+            color:orange
+        }
+    </style>
+    <link rel="stylesheet" type="text/CSS"
+    href="first.CSS"/>
+</head>
+<body>
+    <h1>
+    Hello, how are you?</h1>
+    <p id="para1" class="para3">This is paragraph</p>
+    <p id="para2">JANKIIIII</p>
+    <p class="para3">hiiieeeee</p>
+    <div >Hello</div>
+    <form>
+        <input type="text">
+    </form>
+</body>
+</html>

@@ -1,0 +1,6 @@
+div {
+    background-image: url(flower.jpg);
+    background-repeat: repeat;
+    height: 1000px;
+    width: 1000px;
+}
